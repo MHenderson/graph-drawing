@@ -11,3 +11,7 @@
 ## Petersen graph (with custom options)
 
 ![](img/petersen-circular-options.png)
+
+## Petersen graph (with shell layout)
+
+![](img/petersen-shell.png)
