@@ -15,3 +15,7 @@
 ## Petersen graph (various layouts)
 
 ![](img/petersen-various.png)
+
+## Dodecahedral graph (shell layout)
+
+![](img/dodecahedral.png)
