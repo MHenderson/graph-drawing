@@ -22,4 +22,4 @@ nx.draw_spectral(G, **options)
 plt.subplot(224)
 nx.draw_spring(G, **options)
 
-plt.savefig("img/petersen-circular-various.png", format = "PNG")
+plt.savefig("img/petersen-various.png", format = "PNG")
