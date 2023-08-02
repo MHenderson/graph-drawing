@@ -11,3 +11,7 @@
 ## Petersen graph (with custom options)
 
 ![](img/petersen-circular-options.png)
+
+## Petersen graph (various layouts)
+
+![](img/petersen-various.png)
