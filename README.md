@@ -23,3 +23,7 @@
 ## Random graph (circular layout)
 
 ![](img/random-circular.png)
+
+## Bipartite graph (shell layout)
+
+![](img/bipartite-shell.png)
