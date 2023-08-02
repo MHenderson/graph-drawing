@@ -19,3 +19,7 @@
 ## Dodecahedral graph (shell layout)
 
 ![](img/dodecahedral.png)
+
+## Random graph (circular layout)
+
+![](img/random-circular.png)
