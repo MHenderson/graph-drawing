@@ -1,6 +1,7 @@
 all: img/petersen-circular.png\
      img/petersen-circular-black.png\
 	 img/petersen-circular-options.png\
+	 img/petersen-shell.png\
 	 img/petersen-various.png\
 	 img/dodecahedral.png\
 	 img/random-circular.png\
@@ -14,6 +15,9 @@ img/petersen-circular-black.png: src/petersen-circular-black.py
 
 img/petersen-circular-options.png: src/petersen-circular-options.py
 	poetry run python $<
+
+img/petersen-shell.png: src/petersen-shell.py
+  poetry run python $<
 
 img/petersen-various.png: src/petersen-various.py
 	poetry run python $<

@@ -12,6 +12,10 @@
 
 ![](img/petersen-circular-options.png)
 
+## Petersen graph (with shell layout)
+
+![](img/petersen-shell.png)
+
 ## Petersen graph (various layouts)
 
 ![](img/petersen-various.png)
@@ -27,3 +31,4 @@
 ## Bipartite graph (shell layout)
 
 ![](img/bipartite-shell.png)
+
