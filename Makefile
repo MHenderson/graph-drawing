@@ -17,7 +17,7 @@ img/petersen-circular-options.png: src/petersen-circular-options.py
 	poetry run python $<
 
 img/petersen-shell.png: src/petersen-shell.py
-  poetry run python $<
+	poetry run python $<
 
 img/petersen-various.png: src/petersen-various.py
 	poetry run python $<

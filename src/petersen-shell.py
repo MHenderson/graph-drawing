@@ -7,9 +7,11 @@ options = {
  'with_labels': False,
  'node_color': 'black',
  'node_size': 200,
- 'width': 3,
+ 'width': 3
 }
 
-nx.draw_shell(G, nlist = [range(5, 10), range(5)], **options)
+G_layout = nx.shell_layout(G, nlist = [range(5, 10), range(5)], rotate = 0.)
+
+nx.draw(G, G_layout, **options)
 
 plt.savefig("img/petersen-shell.png", format = "PNG")

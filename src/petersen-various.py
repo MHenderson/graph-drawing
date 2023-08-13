@@ -14,7 +14,8 @@ plt.subplot(221)
 nx.draw_circular(G, **options)
 
 plt.subplot(222)
-nx.draw_shell(G, nlist = [range(5,10), range(5)], **options)
+G_layout = nx.shell_layout(G, nlist = [range(5, 10), range(5)], rotate = 0.)
+nx.draw(G, G_layout, **options)
 
 plt.subplot(223)
 nx.draw_spectral(G, **options)
